@@ -1,0 +1,173 @@
+/* General */ 
+body { 
+  background-color: #004c8b; /* Rojo oscuro */ 
+  font-family: Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  color: #fff; /* Texto blanco para contraste */ 
+  } 
+  /* Encabezado de la universidad */ 
+  .universidad { 
+  background-color: #000000; /* Fondo negro */ 
+  text-align: center; 
+  padding: 10px 0; 
+  color: rgb(255, 255, 255); 
+  } 
+  .universidad h2 { 
+    margin: 0; 
+    font-size: 1.8em; 
+  } 
+   
+  /* Header */ 
+  header { 
+    background: linear-gradient(90deg, #e7ddd0, #4a4a4a); /* Fondo degradado de gris 
+  oscuro a un gris más oscuro */ 
+    color: white; 
+    padding: 20px; /* Incrementa el relleno para mejor espaciado */ 
+    margin: 0; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; /* Alinea el texto al centro */ 
+    border-bottom: 4px solid #ffffff; /* Agrega un borde blanco en la parte inferior */ 
+  } 
+   
+  header h1 { 
+    font-size: 1.8rem; /* Ajusta el tamaño del texto */ 
+    font-weight: bold; /* Hace el texto más destacado */ 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega sombra al texto para mejor 
+  contraste */ 
+    margin: 0; /* Elimina márgenes innecesarios */ 
+  } 
+   
+  header h1 { 
+    font-size: 2em; 
+    margin-right: 20px; 
+  } 
+   
+  .logo { 
+    width: 120px; 
+    height: auto; 
+    opacity: 0.9; 
+  } 
+   
+  /* Lista de Participantes */ 
+  .participantes { 
+    background-color: #ffffff; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    color: #000; /* Texto negro */ 
+  } 
+   
+  .participantes h2 { 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+  } 
+   
+  .participantes ul { 
+    list-style-type: none; 
+    padding: 0; 
+  } 
+   
+  .participantes ul li { 
+    font-size: 18px; 
+    padding: 5px 0; 
+  } 
+   
+  /* Docente del Curso */ 
+  .docente { 
+    background-color: #ffffff; 
+    padding: 20px; 
+    margin: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    color: #000; /* Texto negro */ 
+  } 
+   
+  .docente h2 { 
+    font-size: 20px; 
+    margin-bottom: 10px; 
+  } 
+   
+  .docente p { 
+    font-size: 18px; 
+  } 
+   
+  /* Power BI iframe */ 
+  .powerbi-iframe { 
+    width: 80%; 
+    height: 600px; 
+    margin: 20px auto; 
+    display: block; 
+    border: none; 
+  } 
+   
+  /* Información adicional */ 
+  .informacion-adicional { 
+    background-color: #f5f5f5; /* Fondo suave gris claro */ 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar */ 
+    margin-top: 30px; 
+  text-align: center; /* Centrado de los textos */ 
+  max-width: 600px; /* Ancho máximo */ 
+  margin-left: auto; /* Centrado horizontal */ 
+  margin-right: auto; /* Centrado horizontal */ 
+  } 
+  .informacion-adicional h2 { 
+  color: #2c3e50; /* Color de texto oscuro */ 
+  font-size: 1.8rem; /* Tamaño de fuente para el encabezado */ 
+  margin-bottom: 15px; /* Espaciado debajo del encabezado */ 
+  font-family: 'Roboto', sans-serif; /* Tipografía moderna */ 
+  } 
+  .informacion-adicional p { 
+  color: #34495e; /* Color de texto gris oscuro */ 
+  font-size: 1.1rem; /* Tamaño de fuente para los párrafos */ 
+  margin: 5px 0; /* Espaciado entre los párrafos */ 
+  font-family: 'Roboto', sans-serif; 
+  } 
+  .informacion-adicional p:first-of-type { 
+  font-weight: bold; /* Hacer más destacado el primer párrafo */ 
+  } 
+  .informacion-adicional hr { 
+  border: 0; 
+  height: 1px; 
+  background-color: #2c3e50; 
+  margin: 20px 0; /* Espaciado alrededor de la línea */ 
+  } 
+  /* Footer */ 
+  .footer { 
+    background-color: #333; /* Fondo oscuro */ 
+    color: #f1f1f1; /* Texto claro */ 
+    text-align: center; 
+    padding: 20px; 
+    margin-top: 40px; 
+    font-size: 0.9rem; 
+    position: relative; 
+  } 
+   
+  .footer p { 
+    margin: 0; 
+    padding-bottom: 10px; 
+  } 
+   
+  /* Enlaces en el footer */ 
+  .footer-links { 
+    display: flex; 
+    justify-content: center; 
+    gap: 15px; 
+    flex-wrap: wrap; 
+    margin-top: 10px; 
+  } 
+   
+  .footer-links a { 
+    color: #f1f1f1; 
+    text-decoration: none; 
+    font-size: 0.9rem; 
+  } 
+   
+  .footer-links a:hover { 
+    text-decoration: underline; 
+  }
